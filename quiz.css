@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+h2 {
+    color: #333;
+}
+
+#video-section, #resources-section, #quiz-section {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#quiz-questions ul {
+    list-style: none;
+    padding: 0;
+}
+
+#quiz-questions ul li {
+    margin-bottom: 10px;
+}
+
+#quiz-questions label {
+    cursor: pointer;
+    font-weight: 500;
+}
+
+#quiz-feedback h3 {
+    margin-top: 20px;
+    color: #333;
+}
+
+.correct-answer {
+    color: green;
+}
+
+.incorrect-answer {
+    color: red;
+}
+
+#download-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
